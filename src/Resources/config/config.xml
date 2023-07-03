@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/platform/master/src/Core/System/SystemConfig/Schema/config.xsd">
+    <card>
+        <title>Buy Button Settings</title>
+        <title lang="de-DE">Buy Button Einstellungen</title>
+
+        <input-field type="text">
+            <name>textField</name>
+            <label>Change the buy-button Text</label>
+            <label lang="de-DE">Ändern Sie den Text des Kaufen-Buttons</label>
+            <defaultValue>will be added to the shopping cart</defaultValue>
+            <defaultValue lang="de-DE">wird in den Warenkorb gelegt</defaultValue>
+        </input-field>
+
+        <input-field type="colorpicker">
+            <name>colorPicker</name>
+            <label>Change the buy-button Color</label>
+            <label lang="de-DE">Ändern Sie die Farbe des Kaufen-Buttons</label>
+            <defaultValue>'#595959'</defaultValue>
+        </input-field>
+
+    </card>
+</config>
